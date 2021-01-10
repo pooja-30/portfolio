@@ -1,0 +1,53 @@
+.techSkills {
+  background-color: #e0e0d1;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 200%;
+  left: 0;
+}
+
+.content-skills {
+  margin-top: 3%;
+  width: 90%;
+  margin-left: 7%;
+}
+.skill-header {
+  font-size: 31px;
+  color: #996633;
+  margin-top: 2%;
+}
+
+p span {
+  margin-right: 5%;
+  opacity: 60%;
+  margin-top: 4%;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 960px) {
+  .content-skills {
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 3%;
+  }
+
+  .skill-header {
+    font-size: 26px;
+    color: #996633;
+    margin-top: 4%;
+  }
+
+  p span {
+    margin-right: 3%;
+    opacity: 60%;
+    margin-top: 4%;
+    font-size: 20px;
+  }
+}

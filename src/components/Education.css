@@ -1,0 +1,87 @@
+.education {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 400%;
+  left: 0;
+}
+
+.edu-content {
+  margin-top: 5%;
+}
+
+.school {
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.right {
+  width: 50%;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.school-name {
+  font-size: 32px;
+  color: #996633;
+}
+
+.type {
+  font-size: 25px;
+  opacity: 70%;
+}
+
+.field {
+  font-size: 24px;
+  opacity: 70%;
+}
+
+.score {
+  font-size: 18px;
+  opacity: 50%;
+}
+
+.duration {
+  font-size: 18px;
+  opacity: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .school-name {
+    font-size: 25px;
+    color: #996633;
+  }
+
+  .type {
+    font-size: 20px;
+    opacity: 70%;
+  }
+
+  .field {
+    font-size: 18px;
+    opacity: 70%;
+  }
+
+  .score {
+    font-size: 15px;
+    opacity: 50%;
+  }
+
+  .duration {
+    font-size: 15px;
+    opacity: 50%;
+  }
+}

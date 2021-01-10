@@ -1,0 +1,76 @@
+.aboutMe {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 100%;
+  left: 0;
+}
+
+.imgContainer {
+  padding-top: 4.5%;
+  width: 40%;
+}
+
+.image {
+  width: 45%;
+}
+
+.description {
+  padding-top: 4%;
+  margin-left: -5%;
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+}
+.desc-about {
+  opacity: 75%;
+}
+
+.btn {
+  margin-left: 6px;
+  padding-left: 0px;
+  margin-right: 10px;
+  background: #996633;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn div {
+  padding-left: 0px;
+  padding-top: 4px;
+}
+@media screen and (max-width: 960px) {
+  .description {
+    padding-top: 4%;
+    margin-left: -4%;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .imgContainer {
+    padding-top: 6%;
+    width: 45%;
+    margin-left: -4%;
+  }
+  .image {
+    width: 65%;
+  }
+}

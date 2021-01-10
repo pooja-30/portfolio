@@ -1,0 +1,77 @@
+.experience {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 300%;
+  left: 0;
+}
+
+.work-content {
+  margin-top: 3%;
+}
+
+.WorkMain {
+  margin-top: 1%;
+  margin-left: 6%;
+}
+
+.detail {
+  display: flex;
+}
+
+.role {
+  font-size: 31px;
+  color: #996633;
+}
+
+.organisation {
+  font-size: 24px;
+  opacity: 70%;
+}
+
+.duration {
+  font-size: 20px;
+  opacity: 50%;
+  margin-left: 65%;
+}
+
+.work-description {
+  font-size: 17px;
+  opacity: 50%;
+  width: 90%;
+}
+
+@media screen and (max-width: 960px) {
+  .WorkMain {
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+
+  .role {
+    font-size: 23px;
+    color: #996633;
+  }
+
+  .organisation {
+    font-size: 17px;
+    opacity: 70%;
+  }
+
+  .duration {
+    font-size: 13px;
+    opacity: 50%;
+    margin-left: 65%;
+  }
+
+  .work-description {
+    font-size: 13px;
+    opacity: 50%;
+    width: 90%;
+  }
+}
