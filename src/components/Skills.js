@@ -14,8 +14,8 @@ function AboutMe() {
         </p>
         <p className="skill-header">Web Development </p>
         <p className="skill-content">
-          <span>HTML</span> <span>CSS</span> <span>JavaSript</span>{" "}
-          <span>React</span> <span>Node.js</span>
+          <span>React</span> <span>Node.js</span> <span>HTML</span>{" "}
+          <span>CSS</span> <span>JavaSript</span>
         </p>
         <p className="skill-header">Database </p>
         <p className="skill-content">
