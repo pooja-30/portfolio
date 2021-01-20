@@ -101,7 +101,6 @@ textarea:focus {
 
 ::placeholder {
   color: #996633;
-  opacity: 80%;
   font-style: italic;
   font-size: 120%;
 }

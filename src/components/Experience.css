@@ -32,18 +32,18 @@
 
 .organisation {
   font-size: 24px;
-  opacity: 70%;
+  color: #999966;
 }
 
 .duration {
   font-size: 20px;
-  opacity: 50%;
+  color: #adad85;
   margin-left: 65%;
 }
 
 .work-description {
   font-size: 17px;
-  opacity: 50%;
+  color: #adad85;
   width: 90%;
 }
 
@@ -59,19 +59,19 @@
   }
 
   .organisation {
+    color: #999966;
     font-size: 17px;
-    opacity: 70%;
   }
 
   .duration {
+    color: #adad85;
     font-size: 13px;
-    opacity: 50%;
     margin-left: 65%;
   }
 
   .work-description {
+    color: #adad85;
     font-size: 13px;
-    opacity: 50%;
     width: 90%;
   }
 }
