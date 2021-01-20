@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "./PageTitle";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import Link from "@material-ui/core/Link";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import "../App.css";
 import "./AboutMe.css";
@@ -12,12 +12,7 @@ function AboutMe() {
       <PageTitle width="20%" title="ABOUT ME" class="heading" />
       <div className="content">
         <div className="imgContainer">
-          <img
-            className="image"
-            // src="https://i.pinimg.com/564x/dd/56/61/dd5661f8122358e2d74869317ebbb774.jpg"
-            src="images/me.jpg"
-            alt="me"
-          ></img>
+          <img className="image" src="images/me.jpg" alt="me"></img>
         </div>
         <div className="description">
           <p className="desc-about">
@@ -38,17 +33,19 @@ function AboutMe() {
           <div className="buttons">
             <button className="btn">
               <div>
-                <LinkedInIcon />
+                <a
+                  href="https://www.linkedin.com/in/poojasharma30"
+                  target="_blank"
+                >
+                  <LinkedInIcon />
+                </a>
               </div>
             </button>
             <button className="btn">
               <div>
-                <FacebookIcon />
-              </div>
-            </button>
-            <button className="btn">
-              <div>
-                <GitHubIcon />
+                <a href="https://github.com/pooja-30" target="_blank">
+                  <GitHubIcon />
+                </a>
               </div>
             </button>
           </div>
